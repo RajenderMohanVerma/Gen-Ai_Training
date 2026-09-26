@@ -1,0 +1,34 @@
+Optional Steps:  (Create Python Virtual Environment)
+1. 
+python -m venv jims_env
+
+2. Window: 
+jims_env/Scripts/activate
+
+Mandatory Steps: 
+1. Package install Gemini SDK
+pip install -U google-genai
+
+2. Verify If Packageinstalled successfully
+pip show google-genai
+
+
+3. Install dotenv Packagefor loading Environment variable
+pip install python-dotenv
+
+
+============================
+
+CareerTwin
+
+1. Basic Project setup
+Module - 1: Gemini API foundation
+Module - 2: Prompt Engineering
+- Introduce a system level role
+- Create structure Prompt
+- Add structure context
+- Resume + job Description Analysis
+- Structure JSON output
+- Build skill gap analyzer
+- Generate  Personalized Learning Roadmap
+- Generate Interview  Questions For a 
